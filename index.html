@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Javascript image slider - carousel</title>
+</head>
+
+<body>
+    <button type="button" id="prevBtn" class="btn btn-default btn">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Previous
+    </button>
+    <button type="button" id="nextBtn" class="btn btn-default btn">
+        Next <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </button>
+    <div class="carousel-container">
+
+        <div class="carousel-slide">
+            <img src="img/5.jpg" id="lastimg" alt="Photo by Yuriy Garnaev on Unsplash">
+            <img src="img/1.jpg" alt="Photo by Vidar Nordli-Mathisen on Unsplash">
+            <img src="img/2.jpg" alt="Photo by Sandra Ahn Mode on Unsplash">
+            <img src="img/3.jpg" alt="Photo by Cyrill Hänni on Unsplash">
+            <img src="img/4.jpg" alt="Photo by Martine Jacobsen on Unsplash">
+            <img src="img/5.jpg" alt="Photo by Yuriy Garnaev on Unsplash">
+            <img src="img/1.jpg" id="firstimg" alt="Photo by Vidar Nordli-Mathisen on Unsplash">
+        </div>
+    </div>
+    <div class="credidts">
+    <p>Photo by Vidar Nordli-Mathisen on Unsplash</p>
+    <p>Photo by Sandra Ahn Mode on Unsplash</p>
+    <p>Photo by Cyrill Hänni on Unsplash</p>
+    <p>Photo by Martine Jacobsen on Unsplash</p>
+    <p>Photo by Yuriy Garnaev on Unsplash</p>
+</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
